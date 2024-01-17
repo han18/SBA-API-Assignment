@@ -17,7 +17,7 @@ router
   })
   .post((req, res) => {
     if (req.body.firstname && req.body.lastname && req.body.email) {
-      const post = {
+      const posts = {
         id: posts[posts.length - 1].id + 1,
         lastname: req.body.firstname,
         firstname: req.body.lastname,

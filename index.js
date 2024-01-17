@@ -20,7 +20,7 @@ app.use(morgan("dev"));
 app.set("views", "./views"); // set the view
 app.set("view engine", "pug"); // linking the route view
 
-// inner router for texting
+// inner root router for texting
 app.get("/", (req, res) => {
   res.send("This is my take home assignment");
 });

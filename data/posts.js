@@ -7,6 +7,12 @@ const posts = [
     lastname: "Fadah",
     email: "han@han.com",
   },
+  {
+    id: 1,
+    lastname: "Fancy",
+    first: "Mancy",
+    email: "fanman@can.com",
+  },
 ];
 
 module.exports = posts;
